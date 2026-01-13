@@ -2,6 +2,11 @@
 # Refresha 🥤 | Premium Sparkling Beverages
 
 **A modern, responsive landing page for a fictional premium beverage brand featuring a glassmorphism aesthetic and interactive e-commerce elements.**
+## 🔗 Live Demo
+
+Experience the fizz! Check out the live deployment here:
+
+### [🚀 View Live Site (refresha.netlify.app)](https://refresha.netlify.app)
 
 ![Project Status](https://img.shields.io/badge/Status-Completed-success)
 ![Tech](https://img.shields.io/badge/Tech-HTML%20%7C%20CSS%20%7C%20JS-blue)
@@ -37,11 +42,7 @@ The design focuses on the **Glassmorphism** trend—utilizing translucency, blur
     * [Google Fonts](https://fonts.google.com/) (Poppins & Montserrat)
     * [Unsplash](https://unsplash.com/) (Placeholder photography)
 
-## 🔗 Live Demo
 
-Experience the fizz! Check out the live deployment here:
-
-### [🚀 View Live Site (refresha.netlify.app)](https://refresha.netlify.app)
 
 ## 📂 Project Structure
 
