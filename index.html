@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refresha - Premium Sparkling Beverages</title>
+    <meta name="description" content="Premium natural sparkling drinks.">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="parallax-wrapper">
+        <i class="fas fa-lemon parallax-icon p-1"></i>
+        <i class="fas fa-leaf parallax-icon p-2"></i>
+        <i class="fas fa-apple-alt parallax-icon p-3"></i>
+        <i class="fas fa-tint parallax-icon p-4"></i>
+        <i class="fas fa-ice-cream parallax-icon p-5"></i>
+    </div>
+
+    <header class="glass-header">
+        <div class="container nav-container">
+            <nav class="navbar">
+                <a href="#" class="logo" id="home-logo">
+                    <i class="fas fa-glass-cheers"></i> Refresha
+                </a>
+                
+                <div class="nav-right">
+                    <ul class="nav-links" id="nav-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#flavors">Flavors</a></li>
+                        <li><a href="#about">About</a></li>
+                    </ul>
+
+                    <div class="cart-container" id="cart-btn">
+                        <i class="fas fa-shopping-bag"></i>
+                        <span class="cart-count" id="cart-count">0</span>
+                    </div>
+
+                    <div class="menu-toggle" id="mobile-menu">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="container hero-container">
+                <div class="hero-content glass-panel">
+                    <h1>Sparkling <span class="gradient-text">Refreshment</span></h1>
+                    <p>Experience the ultimate burst of flavor. Naturally crafted with zero artificial nonsense.</p>
+                    <a href="#products" class="btn glow-btn">Taste the Fizz</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="products" id="products">
+            <div class="container">
+                <h2 class="section-title">Premium Selection</h2>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="cola">Cola</button>
+                    <button class="filter-btn" data-filter="fruit">Fruit</button>
+                    <button class="filter-btn" data-filter="zero">Zero Sugar</button>
+                </div>
+                <div class="products-grid">
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <div class="container">
+                <h2 class="section-title">Fan Favorites</h2>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card glass-panel">
+                        <div class="rating">⭐⭐⭐⭐⭐</div>
+                        <p>"The Berry Burst is insane. It actually tastes like real fruit, not candy."</p>
+                        <div class="customer"><strong>Sarah J.</strong> <span>Verified Buyer</span></div>
+                    </div>
+                    <div class="testimonial-card glass-panel">
+                        <div class="rating">⭐⭐⭐⭐⭐</div>
+                        <p>"Finally a zero sugar drink that doesn't have that weird aftertaste. 10/10."</p>
+                        <div class="customer"><strong>Michael T.</strong> <span>Verified Buyer</span></div>
+                    </div>
+                    <div class="testimonial-card glass-panel">
+                        <div class="rating">⭐⭐⭐⭐⭐</div>
+                        <p>"My kids love these and I feel better knowing there's no red dye 40 in them."</p>
+                        <div class="customer"><strong>Jennifer L.</strong> <span>Mom of 3</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="flavors" id="flavors">
+            <div class="container">
+                <h2 class="section-title">Flavor Profile</h2>
+                <div class="flavors-grid">
+                    <div class="flavor-card glass-panel">
+                        <i class="fas fa-cookie-bite flavor-icon"></i>
+                        <h3>Cola-Based</h3>
+                        <p>Rich caramel notes with a modern twist.</p>
+                    </div>
+                    <div class="flavor-card glass-panel">
+                        <i class="fas fa-apple-alt flavor-icon"></i>
+                        <h3>Fruit-Based</h3>
+                        <p>Real extracts. No fake syrup.</p>
+                    </div>
+                    <div class="flavor-card glass-panel">
+                        <i class="fas fa-leaf flavor-icon"></i>
+                        <h3>Zero Sugar</h3>
+                        <p>Sweetened with Monk Fruit & Stevia.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery" id="gallery">
+            <div class="container">
+                <h2 class="section-title">#RefreshaLife</h2>
+                <div class="gallery-grid">
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="container">
+                <div class="about-content glass-panel">
+                    <div class="about-text">
+                        <h2 class="section-title" style="text-align: left; margin-bottom: 20px;">Our Story</h2>
+                        <p>Refresha was born from a simple idea: create soft drinks that refresh without artificial ingredients.</p>
+                        <p>Founded in 2015, we set out to revolutionize the beverage industry. Every sip is a celebration of nature, crafted using only the finest real fruit extracts and sparkling spring water.</p>
+                        <a href="#products" class="btn">Join the Journey</a>
+                    </div>
+                    <div class="about-image">
+                        <img src="https://images.unsplash.com/photo-1550989460-0adf9ea622e2?q=80&w=600&auto=format&fit=crop" alt="Refresha Factory">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="product-modal" class="modal">
+        <div class="modal-content glass-panel">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <div class="modal-img-container">
+                    <img id="modal-img" src="" alt="Product">
+                </div>
+                <div class="modal-info">
+                    <h2 id="modal-title">Product Name</h2>
+                    <span id="modal-price" class="modal-price">$2.99</span>
+                    <p id="modal-desc">Description goes here.</p>
+                    
+                    <div class="nutrition-facts">
+                        <div class="fact"><span>Cal</span><strong>120</strong></div>
+                        <div class="fact"><span>Sugar</span><strong>10g</strong></div>
+                        <div class="fact"><span>Carbs</span><strong>12g</strong></div>
+                    </div>
+
+                    <button id="add-to-cart-btn" class="btn full-width-btn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <span class="close-lightbox">&times;</span>
+            <img id="lightbox-img" alt="Gallery Image">
+        </div>
+    </div>
+
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-col">
+                <h3>Refresha</h3>
+                <p>Sparkling refreshment crafted with natural ingredients.</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Shop</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#flavors">Flavors</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contact</h3>
+                <ul>
+                    <li>123 Refreshment Blvd</li>
+                    <li>CA 90210</li>
+                    <li><a href="mailto:hello@refresha.com">hello@refresha.com</a></li>
+                    <li><a href="tel:+1234567890">+1 (234) 567-890</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Refresha. Crafted with ❤️ and 🥤</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
