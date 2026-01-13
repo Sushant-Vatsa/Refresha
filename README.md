@@ -37,25 +37,11 @@ The design focuses on the **Glassmorphism** trend—utilizing translucency, blur
     * [Google Fonts](https://fonts.google.com/) (Poppins & Montserrat)
     * [Unsplash](https://unsplash.com/) (Placeholder photography)
 
-## 🚀 Getting Started
+## 🔗 Live Demo
 
-Since this project uses vanilla web technologies, no build step or package manager (npm/yarn) is required.
+Experience the fizz! Check out the live deployment here:
 
-### Prerequisites
-
-* A modern web browser (Chrome, Firefox, Safari, Edge).
-* A code editor (VS Code) if you wish to modify the code.
-
-### Installation
-
-1.  **Clone the repository** (or download the ZIP):
-    ```bash
-    git clone [https://github.com/yourusername/refresha-landing-page.git](https://github.com/yourusername/refresha-landing-page.git)
-    ```
-2.  **Open the project:**
-    Navigate to the folder and open `index.html` in your browser.
-
-    *Tip: For the best experience with loading external assets and `backdrop-filter`, use a local server (like the "Live Server" extension in VS Code).*
+### [🚀 View Live Site (refresha.netlify.app)](https://refresha.netlify.app)
 
 ## 📂 Project Structure
 
